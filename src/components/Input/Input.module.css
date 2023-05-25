@@ -1,0 +1,26 @@
+.input_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_hero_name {
+  width: 452px;
+  height: 38px;
+  padding: 0 17.2px;
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  color: #ABB5BE;
+  margin-top: 3px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
+.input_hero_name:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}

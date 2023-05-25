@@ -1,0 +1,45 @@
+.container {
+  max-width: 688px;
+  margin: 40px auto 0;
+}
+
+.title {
+  margin-top: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.small_tit {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  margin-top: 48px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.linkBack {
+  color: #3f444a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 40px;
+  text-decoration: underline;
+}

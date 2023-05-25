@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  max-width: 688px;
+  margin: 0 auto;
+}
+
+section {
+  border-top: 1px solid  #DEE2E6;
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 40px;
+
+}

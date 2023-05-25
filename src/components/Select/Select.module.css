@@ -1,0 +1,30 @@
+select {
+  width: 216px;
+  height: 38px;
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  padding: 0 15px;
+  appearance: none;
+  background: url(../../Vector.svg) no-repeat right #FFFFFF;;
+  background-position-x: calc(100% - 16px);
+  margin-top: 3px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 21px;
+}
+select:not(:valid) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+
+.selected {
+  color: #818182;
+}
+
+.input_form {
+  display: flex;
+  flex-direction: column;
+}
