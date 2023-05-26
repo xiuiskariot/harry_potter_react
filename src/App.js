@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import { data } from "./data/hp";
 import { useEffect, useState } from "react";
 import { Home } from "./pages/Home";
@@ -33,7 +33,7 @@ function App() {
   }, [select, input]);
 
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: (
