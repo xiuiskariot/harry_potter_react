@@ -10,10 +10,18 @@
 }
 
 section {
-  border-top: 1px solid  #DEE2E6;
+  border-top: 1px solid #dee2e6;
   padding-top: 40px;
   position: relative;
   width: 100%;
   padding-bottom: 40px;
+}
 
+@media only screen and (max-width: 728px) {
+  .container {
+    width: 320px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

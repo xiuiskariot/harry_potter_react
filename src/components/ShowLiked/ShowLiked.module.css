@@ -19,4 +19,9 @@
   right: 40px;
   bottom: 23px;
 }
-
+@media only screen and (max-width: 728px) {
+  .show_liked {
+    right: 40px;
+    bottom: 50px;
+  }
+}

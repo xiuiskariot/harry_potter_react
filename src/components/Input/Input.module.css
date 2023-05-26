@@ -24,3 +24,12 @@
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
+
+
+@media only screen and (max-width: 728px) {
+  input {
+    max-width: 320px;
+    margin-bottom: 27px;
+  }
+
+}

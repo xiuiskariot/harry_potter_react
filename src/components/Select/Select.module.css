@@ -28,3 +28,12 @@ select:not(:valid) {
   display: flex;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 728px) {
+  select {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
+}

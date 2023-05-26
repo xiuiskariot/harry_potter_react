@@ -30,9 +30,9 @@
 }
 
 .form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .linkBack {
@@ -42,4 +42,34 @@
   line-height: 28px;
   margin-top: 40px;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 728px) {
+
+  .container {
+    width: 320px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    margin-bottom: 14px;
+
+
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+
+
 }
