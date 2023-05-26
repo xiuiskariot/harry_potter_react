@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/harry_potter_react/static/css/main.a10fc0a4.css",
-    "main.js": "/harry_potter_react/static/js/main.3818d96e.js",
+    "main.js": "/harry_potter_react/static/js/main.cc1d9777.js",
     "static/media/empty_like.svg": "/harry_potter_react/static/media/empty_like.cfb3374a8739fefc1f544bf034a5b662.svg",
     "index.html": "/harry_potter_react/index.html",
     "static/media/like.svg": "/harry_potter_react/static/media/like.780ebc7d4c10690fda53cf4761560d8c.svg",
     "static/media/Vector.svg": "/harry_potter_react/static/media/Vector.613067c6134ec2066f76.svg",
     "main.a10fc0a4.css.map": "/harry_potter_react/static/css/main.a10fc0a4.css.map",
-    "main.3818d96e.js.map": "/harry_potter_react/static/js/main.3818d96e.js.map"
+    "main.cc1d9777.js.map": "/harry_potter_react/static/js/main.cc1d9777.js.map"
   },
   "entrypoints": [
     "static/css/main.a10fc0a4.css",
-    "static/js/main.3818d96e.js"
+    "static/js/main.cc1d9777.js"
   ]
 }
